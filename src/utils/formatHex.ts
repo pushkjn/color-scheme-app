@@ -1,0 +1,1 @@
+export const formatHex = (hex: string) => hex.replace('#', '').toUpperCase()
