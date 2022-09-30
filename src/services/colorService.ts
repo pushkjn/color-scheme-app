@@ -19,8 +19,6 @@ export class ColorSchemeService {
             }
         )
 
-        console.log(responce.data.colors, 'data');
-
         const colors = responce.data.colors.map(color => color.hex.value)
 
         return colors
